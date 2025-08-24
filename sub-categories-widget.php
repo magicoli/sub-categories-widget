@@ -7,7 +7,7 @@
  * Author URI:		https://magiiic.com/
  * Text Domain:		sub-categories-widget
  * Domain Path:		/languages
- * Version:			1.5.3
+ * Version:			1.5.4
  */
 
 if ( ! defined( 'WPINC' ) ) {

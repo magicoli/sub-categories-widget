@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.4] - 2025-08-24
+
+### Added
+- Added GitHub Actions workflow for automatic releases
+- Added GitHub funding configuration
+
 ## [1.5.3] - 2025-08-24
 
 ### Changed

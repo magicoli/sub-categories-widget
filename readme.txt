@@ -1,11 +1,17 @@
 === Sub Categories Widget ===
-Contributors: magicoli69, BrokenCrust
+Contributors: magico== Changelog ==
+
+= 1.5.4 =
+* Added GitHub Actions workflow for automatic releases
+* Added GitHub funding configuration
+
+= 1.5.3 =9, BrokenCrust
 Donate link: https://magiiic.org/donate/
 Tags: widget, category, sub-category, list
 Requires at least: 5.0
 Tested up to: 6.8.2
 Requires PHP: 7.4
-Stable tag: 1.5.3
+Stable tag: 1.5.4
 License: AGPLv3 or later
 License URI: https://www.gnu.org/licenses/agpl-3.0.html
 
@@ -49,6 +55,10 @@ You can display and filter sub-categories in various ways:
 
 
 == Changelog ==
+
+= 1.5.4 =
+* Added GitHub Actions workflow for automatic releases
+* Added GitHub funding configuration
 
 = 1.5.3 =
 * Updated plugin header with new maintainer information (Magiiic/Oli's fork)
