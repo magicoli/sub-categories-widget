@@ -1,15 +1,19 @@
 === Sub Categories Widget ===
-Contributors: BrokenCrust
+Contributors: magicoli69, BrokenCrust
+Donate link: https://magiiic.org/donate/
 Tags: widget, category, sub-category, list
-Requires at least: 3.9
-Tested up to: 5.8
-Stable tag: 1.5.2
-License: GPLv2 or later
+Requires at least: 5.0
+Tested up to: 6.8.2
+Requires PHP: 7.4
+Stable tag: 1.5.3
+License: AGPLv3 or later
+License URI: https://www.gnu.org/licenses/agpl-3.0.html
 
 This Widget lists the sub-categories for a given category.
 
-
 == Description ==
+
+*Note: This plugin seems abandoned by it's original author, so I took over to ensure maintenance if needed.*
 
 Sometimes when you divide up your WordPress content into categories it all ends up in sub-categories of one or two main categories that don't have any content themselves.
 
@@ -28,24 +32,36 @@ You can display and filter sub-categories in various ways:
 * List the categories in reverse order
 
 
-== Installation ==
+== Usage ==
 
-Installing is pretty easy and takes only a minute or two:
+1. Go to **Appearance > Widgets** or **Appearance > Customize > Widgets** in your WordPress admin.
 
-1. Upload 'sub-category-widget' directory to your '/wp-content/plugins/' directory.
+2. Add the **Sub-categories** widget to any widget area (sidebar, footer, etc.).
 
-2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. Configure the widget options:
+   - **Parent category**: Choose which category's sub-categories to display
+   - **Title options**: Use custom title or parent category name as title
+   - **Display options**: Show/hide post counts, empty categories, etc.
+   - **Layout**: Display as list or dropdown menu
+   - **Advanced**: Exclude specific categories, show full tree, reverse order
 
-3. On the 'Widgets' sub-menu of 'Appearance' you will find a new widget type called 'Sub Category'.
-
-4. Add one or more of these to your themes widget display areas.
-
-5. For each widget you add, decide what and how you'd like it to display.
-
-6. Save your settings.
+4. The widget will automatically display sub-categories of your chosen parent category.
 
 
 == Changelog ==
+
+= 1.5.3 =
+* Updated plugin header with new maintainer information (Magiiic/Oli's fork)
+* Updated minimum WordPress and PHP requirements
+* Tested up to 6.8.2
+* Changed license from GPLv2 to AGPLv3
+* Added donate link and proper plugin URI
+* Updated contributors list to include new maintainer
+* Added maintenance note in description
+* Improved code formatting and WordPress coding standards compliance
+* Enhanced security with proper WPINC check
+* Updated text domain loading path
+* Added .distignore file for distribution
 
 = 1.5.2 =
 * Changed dropdown url function from get_option to get_home_url for compatibility with WPML
